@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>DigitalBond</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__header">
+      <div class="logo nav__logo">
+        <a href="#">Digital<span id="text-dark">Bond</span></a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <span><i class="ri-menu-line"></i></span>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#explore__content">About</a></li>
+      <li><a href="#text-dark ">Services</a></li>
+      <li><a href="#client">Clients</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+    <div class="nav__btn">
+      <span>
+        <i class="fa-brands fa-facebook-f"></i>
+      </span>
+      <span>
+        <i class="fa-brands fa-twitter"></i>
+      </span>
+      <span>
+        <i class="fa-brands fa-linkedin"></i>
+      </span>
+      <span>
+        <i class="fa-brands fa-square-instagram"></i>
+      </span>
+    </div>
+  </nav>
+  <header class="section__container header__container" id="home">
+    <div class="header__image">
+      <img src="assets/Marketing-rafiki.png" alt="header" />
+    </div>
+    <div class="header__content">
+      <h1 id="text-dark">WE ARE <span>THE BONDERS!</span>.</h1>
+      <p id="text-dark" class="section__description">
+        Bonders are a blend of cheerful, uprising and creative peeps working to deliver outstanding services. We are
+        committed
+        and loyalty runs in the veins; when we are put together our results blow minds.
+      </p>
+      <div class="header__btn">
+        <button class="btn">Get Started</button>
+      </div>
+    </div>
+  </header>
+  <div class="dark-btn">
+    <label class="switch">
+      <input id="toggle-button" class="cb" type="checkbox" />
+      <span class="toggle">
+        <span class="left">off</span>
+        <span class="right">on</span>
+      </span>
+    </label>
+  </div>
+  <section class="section__container explore__container">
+    <div class="explore__image">
+      <img src="assets/Marketing-amico.png" alt="explore" />
+    </div>
+    <div id="explore__content" class="explore__content">
+      <h1 id="text-dark" class="section__header">Learn more about Bonders!</h1>
+      <p id="text-dark" class="section__description">
+        We are a bonded family that mix and match creativity and commitment to help brands go beyond the limit.
+        Bonders
+        are a
+        blend of cheerful, uprising and creative peeps working to deliver outstanding services. We are committed and
+        loyalty
+        runs in the veins; when we are put together our results blow minds
+      </p>
+      <div class="explore__btn">
+        <button class="btn">
+          Learn more <span><i class="ri-arrow-right-line"></i></span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <h3 id="text-dark" class="section__header"> Services we provide .</h3>
+  <section class="section__container banner__container">
+    <div class="banner__card">
+      <span class="banner__icon"><i class="ri-bowl-fill"></i></span>
+      <h4>WEB DEVELOPMENT</h4>
+      <p>
+        we specialize in creating stunning, high-performance websites tailored to meet your business needs. Our web
+        development
+        services encompass the full spectrum of web solutions, from responsive design and intuitive
+      </p>
+      <a href="#">
+        Read more
+        <span><i class="ri-arrow-right-line"></i></span>
+      </a>
+    </div>
+    <div class="banner__card">
+      <span class="banner__icon"><i class="ri-truck-fill"></i></span>
+      <h4>Digital Marketing</h4>
+      <p>
+        In the dynamic world of digital marketing, we help businesses amplify their online presence and drive
+        meaningful
+        engagement. Our comprehensive suite of services includes search engine optimization (SEO), social media
+        management,
+      </p>
+      <a href="#">
+        Read more
+        <span><i class="ri-arrow-right-line"></i></span>
+      </a>
+    </div>
+    <div class="banner__card">
+      <span class="banner__icon"><i class="ri-star-smile-fill"></i></span>
+      <h4>Branding</h4>
+      <p>
+        In today's competitive market, strong branding is essential for standing out and making a lasting
+        impression.
+        Our
+        branding services help define and enhance your company's identity, ensuring consistency and recognition
+        across
+        all
+        platforms
+      </p>
+      <a href="#">
+        Read more
+        <span><i class="ri-arrow-right-line"></i></span>
+      </a>
+    </div>
+  </section>
+  <section class="section__container client__container" id="client">
+    <h2 id="text-dark" class="section__header">What Our Customers Are Saying</h2>
+    <p id="text-dark" class="section__description">
+      Discover firsthand experiences and testimonials from our valued patrons.
+      Explore the feedback and reviews that showcase our commitment to
+      quality, service, and customer satisfaction.
+    </p>
+    <div class="client__swiper">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="client__card">
+              <p>
+                Wonderful agency to work with. Always working towards the delivery of projects. Very technical and
+                knowledgeable in the
+                Marketing.
+              </p>
+              <img src="assets/avatar.png" alt="client" />
+              <h4>Menna</h4>
+              <h5>Business Executive</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <p>
+                We have a growing relationship with Digital Bond and they continually bring more ideas and resources
+                to
+                our company.
+              </p>
+              <img src="assets/avatar.png" alt="client" />
+              <h4>Mohamed</h4>
+              <h5>CTO</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <p>
+                A fantastic agency that develops strategic creative and technology to deliver on our business
+                objectives.
+              </p>
+              <img src="assets/avatar.png" alt="client" />
+              <h4>Nada</h4>
+              <h5>sales</h5>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <h1 id="text-dark" class="section__header">Contact Us</h1>
+  <section class="contact-us">
+    <div class="form-container">
+      <form class="form">
+        <div class="form-group">
+          <label for="email">Name</label>
+          <input required="" name="email" id="email" type="text">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input required="" name="email" id="email" type="text">
+        </div>
+        <div class="form-group">
+          <label for="textarea">How Can We Help You?</label>
+          <textarea required="" cols="50" rows="10" id="textarea" name="textarea">          </textarea>
+        </div>
+        <button type="submit" class="form-submit-btn">Submit</button>
+      </form>
+    </div>
+  </section>
+  <footer class="footer" id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="logo footer__logo">
+          <a href="#">Digital Bond</a>
+        </div>
+        <p class="section__description">
+          We are a bonded family that mix and match creativity and commitment to help brands go beyond the limit.
+          Bonders are a
+          blend of cheerful,
+        </p>
+      </div>
+      <div class="footer__col">
+        <h4>Get in touch</h4>
+        <ul class="footer__links">
+          <li><a href="#">+2-01021551322</a></li>
+          <li><a href="#">Bonder@digitalbondmena.com</a></li>
+          <li><a href="#">11 Ahmed Al Shatouri, Ad Dokki, Giza Governorate</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Explore more</h4>
+        <ul class="footer__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#explore__content">About</a></li>
+          <li><a href="#Services ">Services</a></li>
+          <li><a href="#client">Clients</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul class="footer__links">
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Designed And Developed by Mohamed Alkomali
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+    integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
